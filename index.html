@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap com Carousel Grid e Card EBAC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        .card-img-top {
+            height: 200px; 
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2023/06/11/16/06/switzerland-8056378_1280.jpg" class="d-block w-100" alt="Foto de uma montanha na Suíça">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto de uma montanha na Suíça</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2024/12/06/22/29/autumn-9249885_960_720.jpg" class="d-block w-100" alt="Foto de árvores no outono">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto de árvores no outono</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2024/01/29/19/38/mountains-8540699_960_720.jpg" class="d-block w-100" alt="Foto de árvores e montanhas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto de árvores e montanhas</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2024/11/03/17/49/mountain-9172053_1280.jpg" class="card-img-top" alt="Foto de montanhas">
+                <div class="card-body">
+                    <h5 class="card-title">Montanhas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est atque ullam eaque esse repellendus impedit magni? Debitis rem ea labore deleniti accusamus impedit sit quaerat, consectetur distinctio in reprehenderit neque?</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2022/07/18/01/25/sky-7328573_1280.jpg" class="card-img-top" alt="Foto de praia com nuvens">
+                <div class="card-body">
+                    <h5 class="card-title">Praia</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut cupiditate aspernatur animi exercitationem deserunt, impedit laudantium quisquam sunt voluptatum reprehenderit maiores quasi assumenda earum minus accusantium nisi, ad magnam?</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2023/01/22/20/07/canadian-goose-7737260_1280.jpg" class="card-img-top" alt="Foto de um ganso do canadá com asas abertas dentro de um lago">
+                <div class="card-body">
+                    <h5 class="card-title">Ganso do canadá</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, expedita? Ipsa eos laudantium quia consequuntur exercitationem porro quibusdam, placeat neque mollitia. Excepturi, sit! Laboriosam nesciunt, tempora aut incidunt voluptas labore.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2024/11/03/12/57/lion-tamarin-9171365_960_720.jpg" class="card-img-top" alt="Foto mico leão dourado">
+                <div class="card-body">
+                    <h5 class="card-title">Mico leão</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quod quae. Autem velit vitae omnis provident minus iusto modi nobis, soluta atque odit reprehenderit amet laudantium, veritatis exercitationem vero numquam.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2024/07/01/07/11/cats-8864617_1280.jpg" class="card-img-top" alt="Foto de dois gatinhos em uma cadeira">
+                <div class="card-body">
+                    <h5 class="card-title">Gatinhos</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, perferendis sapiente! Officiis eius illum quidem error officia nostrum maiores culpa facilis nobis sapiente dignissimos debitis, voluptas architecto sunt repudiandae inventore.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2021/03/22/03/28/bird-6113555_960_720.jpg" class="card-img-top" alt="Foto de um beija-flor em um galho com espinhos">
+                <div class="card-body">
+                    <h5 class="card-title">Beija-flor</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit mollitia possimus praesentium quisquam, tenetur a nihil sed harum, autem velit eligendi eaque fugit reiciendis animi fugiat porro ad itaque recusandae.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
